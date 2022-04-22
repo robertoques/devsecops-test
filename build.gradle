@@ -16,7 +16,8 @@ dependencies {
 
 sonarqube {
     properties {
-        #property 'sonar.host.url', 'http://sonar.nivel4.cl'
-	property "sonar.projectKey", "test2"
+        property 'sonar.host.url', 'http://sonar.nivel4.net'
+        property 'sonar.login', 'd76ac4081c9d045e74966325db2fc5eb3039fd62'
+	property "sonar.projectKey", "test2x"
     }
 }
