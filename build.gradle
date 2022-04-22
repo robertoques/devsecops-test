@@ -19,3 +19,7 @@ sonarqube {
 	property "sonar.projectKey", "test3x"
     }
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '5.5'
+}
