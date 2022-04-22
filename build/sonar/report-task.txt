@@ -1,6 +1,0 @@
-projectKey=test2x
-serverUrl=http://sonar.nivel4.net
-serverVersion=9.4.0.54424
-dashboardUrl=http://sonar.nivel4.net/dashboard?id=test2x
-ceTaskId=AYBSg-PuY3T9abM7I1kO
-ceTaskUrl=http://sonar.nivel4.net/api/ce/task?id=AYBSg-PuY3T9abM7I1kO
