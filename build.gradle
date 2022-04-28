@@ -22,6 +22,6 @@ sonarqube {
 }
 
 dependencyCheck {
-    outputDirectory="${buildDir}/"
+    outputDirectory="/"
     formats=['HTML','JSON']
 }
