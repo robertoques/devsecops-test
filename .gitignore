@@ -1,3 +1,6 @@
+.idea/
+dependency-check-report.html
+dependency-check-report.json
 build
 # Compiled class file
 *.class
