@@ -21,7 +21,7 @@ dependencies {
 sonarqube {
     properties {
 	property "sonar.projectKey", "test3x"
-	property "sonar.projectKey", "test3x"
+	property "sonar.organization", "n4-test" 
         property "sonar.dependencyCheck.htmlReportPath", "dependency-check-report.html"
 	property "sonar.dependencyCheck.jsonReportPath", "dependency-check-report.json"
     }
