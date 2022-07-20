@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     parameters {
-      booleanParam(name: 'promover', defaultValue: true, description: 'Si se pasa el QualityGate se promueve a la rama productiva.'
+      booleanParam(name: 'promover', defaultValue: true, description: 'Si se pasa el QualityGate se promueve a la rama productiva.')
     }
   
     tools {
@@ -13,13 +13,17 @@ pipeline {
           when {
             expression { params.promover == true}
           }
-          echo "Construcción iniciada"
+            steps {
+                echo "Construcción iniciada"
+            }
         }
       stage('Construcción 2') {
         when { 
           expression { params.promover == false }
         }
-        echo "Cons 2" 
+          steps {
+            echo "Cons 2"
+          }
       }
     }
 }
